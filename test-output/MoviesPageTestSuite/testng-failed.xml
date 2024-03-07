@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [MoviesPageTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="MoviesPageTest(failed)">
+    <classes>
+      <class name="AccountPageTest">
+        <methods>
+          <include name="startUp"/>
+          <include name="testTheLogOutFunctionality"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AccountPageTest -->
+      <class name="PopularPageTest">
+        <methods>
+          <include name="startUp"/>
+          <include name="testThePopularImagesDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PopularPageTest -->
+    </classes>
+  </test> <!-- MoviesPageTest(failed) -->
+</suite> <!-- Failed suite [MoviesPageTestSuite] -->
